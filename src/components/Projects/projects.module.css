@@ -9,9 +9,10 @@
 
 .projects {
     display: flex;
-    justify-content: center;
-    border: 1px solid red;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    border: 1px solid red;
+    width: 100%;
 }
 
 .github_link a {

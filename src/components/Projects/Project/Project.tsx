@@ -11,7 +11,7 @@ export type ProjectType = {
 export const Project: FC<ProjectType> = (props) => {
     return (
         <div className={styles.project_container}>
-            <div className={styles.project_img}>
+            <div className={styles.img_container}>
                 <img src={props.img} alt={props.title}/>
                 <a href={props.project_link}><button>Watch...</button></a>
             </div>
