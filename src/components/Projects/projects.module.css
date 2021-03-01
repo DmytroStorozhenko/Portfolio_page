@@ -1,0 +1,21 @@
+.projects_block {
+    background-color: #494e66;
+}
+.project_container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    flex-wrap: wrap;
+}
+
+.github_link a {
+    text-decoration: none;
+    color: white;
+}
+

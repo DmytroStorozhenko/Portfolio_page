@@ -1,0 +1,20 @@
+.block {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+    border: 2px solid
+}
+
+.heading {
+    margin-top: 0;
+}

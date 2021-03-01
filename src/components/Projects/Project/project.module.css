@@ -1,0 +1,41 @@
+.project_container {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid green;
+}
+
+.project_img {
+    position: relative;
+}
+
+.project_img img:hover {
+    filter: brightness(70%);
+}
+
+.project_img img {
+    width: 100%;
+    background-color: #80c2d2;
+}
+
+.project_img button {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    box-shadow: #494e66;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.project_img:hover button {
+    z-index: 2;
+    background-color: rgba(29,90,255,0.61);
+    color: white;
+}
+
+
+
+
